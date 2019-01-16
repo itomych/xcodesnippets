@@ -15,7 +15,9 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Todo</string>
+	<string>Todo directive for some not finished stuff</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Adds code for showing system alert</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
