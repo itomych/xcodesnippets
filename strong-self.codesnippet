@@ -6,14 +6,14 @@
 	<string>strongs</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>guard let sSelf = self else { return }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>7D4F728F-E36C-405C-9FAA-D30A3EB2FCDE</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>Strong reference to self for use in closures</string>
 	<key>IDECodeSnippetTitle</key>
