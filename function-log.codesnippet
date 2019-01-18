@@ -3,24 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>func log</string>
+	<string>method_log</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>print("Function log: \((#file as NSString).lastPathComponent.components(separatedBy: ".").first!).\(#function)")</string>
+	<string>print("""
+    Method log:
+    \t\(String(describing: type(of: self))).\(#function)
+    \t\(#file.components(separatedBy: "/").last!): line \(#line)
+    """)
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>25E28403-0B09-4195-8499-6FE6895AACED</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Prints class name and method name</string>
+	<string>Prints debug info for class/struct method</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Function log</string>
+	<string>Method log</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
