@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>deinit_log</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>deinit {
+    print("""
+        Deinit log:
+        \t\(String(describing: type(of: self)))
+        \t\(#file.components(separatedBy: "/").last!): line \(#line)
+        """)
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>34CD14B7-C5B4-49F0-BD50-5B526B0834D9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Deinit method which prints debug info for class/struct</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Deinit log</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
