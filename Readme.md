@@ -5,10 +5,6 @@ This repo contains collection of helpful Xcode code snippets
 Run *make* from the repository root.
 
 ## Contribute
-To contribute this repo you need to create pull request you need:
-
-- Set *Kirill Ushkov* as reviewer
-- Set destination branch to **master**
 
 Your PR should contain:
 
