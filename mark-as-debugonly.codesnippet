@@ -3,32 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>method_log</string>
+	<string>mark_debugonly</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-	// #DEBUGONLY#
-    // This code should be used ONLY FOR DEBUG!
-	print("""
-    Method log:
-    \t\(String(describing: type(of: self))).\(#function)
-    \t\(#file.components(separatedBy: "/").last!): line \(#line)
-    """)
-</string>
+	<string>// #DEBUGONLY# &lt;#additional text#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>25E28403-0B09-4195-8499-6FE6895AACED</string>
+	<string>870FAD56-E282-44F6-9332-DD9488A6D538</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Plain</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>Prints debug info for class/struct method</string>
+	<string>Marks particular code part as debug only</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Method log</string>
+	<string>Mark as debug only code</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -9,7 +9,10 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>deinit {
+	<string>
+	// #DEBUGONLY#
+    // This code should be used ONLY FOR DEBUG!
+	deinit {
     print("""
         Deinit log:
         \t\(String(describing: type(of: self)))
